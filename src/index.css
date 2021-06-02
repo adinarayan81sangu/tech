@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.serviceitem{
+  width: 300px;
+  height: 400px;
+  position:relative;
+  float: left;
+  margin: 30px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 10px 10px rgb(204, 187, 187);
+  overflow: hidden;
+  
+}
+
+.serviceitem .image{
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.serviceitem .image img{
+  height: 100%;
+  width: 100%;
+}
+.auther{
+  overflow: hidden;
+  position: absolute;
+  bottom: 0px;
+  position: 0px;
+}
